@@ -24,10 +24,32 @@ namespace Fish_ocean
         {
             InitializeComponent();
         }
-        private void But_options_Click(object sender, RoutedEventArgs e)
+      
+   
+
+        private void But_start_Click_1(object sender, RoutedEventArgs e)
+        {
+            Random rnd = new Random();
+            int cordx,cordy;
+            cordx = (rnd.Next(1,18)*50);
+            cordy = (rnd.Next(1,12)*50);
+
+        }
+
+        private void But_start_Click(object sender, RoutedEventArgs e)
         {
             Options options = new Options();
             options.Show();
+        }
+
+        private void But_reset_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void But_pause_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
