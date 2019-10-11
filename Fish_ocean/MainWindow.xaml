@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fish_ocean"
         mc:Ignorable="d"
-        Title="Fish's ocean" Height="750" Width="1000" WindowStartupLocation="Manual" WindowState="Maximized">
+        Title="Fish's ocean" Height="750" Width="1000" WindowStartupLocation="Manual" >
     <Grid>
         <Grid HorizontalAlignment="Left" Height="435" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" ShowGridLines="True">
-
-            <Image x:Name="background_png" Source="background.png" Stretch="Fill" Height="412" VerticalAlignment="Top"/>
+            <Image x:Name="background_png" Margin="-13,-13,-208,-272" Source="background.png" Stretch="Fill"/>           
             <Button x:Name="but_start" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Cursor="No" Opacity="0.515" FontFamily="Segoe UI Black" Click="But_start_Click_1"/>
             <Button x:Name="but_pause" Content="Pause" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Opacity="0.52" FontFamily="Segoe UI Black" Click="But_pause_Click"/>
             <Button x:Name="but_reset" Content="Reset" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI Black" Opacity="0.52" Click="But_reset_Click"/>
             <Button x:Name="but_options" Content="Options" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI Black" Opacity="0.52" Click="But_start_Click" Cursor="Help"/>
+            
         </Grid>
 
     </Grid>
